@@ -1,0 +1,38 @@
+.Menu {
+    background-color: white;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links1 {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .1rem;
+}
+img {
+    width: 220px;
+    height: auto;
+}
+
+.links2 {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .1rem;
+}
+
+
+.OP:hover {
+    background-color: #FC8F2F;
+    display: flex;
+    border-radius:100px;
+    padding: 10px 22px;
+    transition: .4s;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

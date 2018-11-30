@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import imagenLogo from '../img/logo.jpg';
+import imagenSan from '../img/San.jpg'
 import Menu from '../Menu/Menu';
+import './Home.css';
 
 
 class Home extends Component {
@@ -10,12 +11,12 @@ class Home extends Component {
             return (
                 <div className="main-container">
                     <React.Fragment>
-                        <img alt='' src={imagenLogo} />
-                        <Menu />
-                        <div>Aca va el slider</div>
-                        <div>Aca va el footer</div>
+                            <Menu />
+                                <div className="Slider"> <img src={imagenSan}/> </div>
+                                <div className="Footer"></div>
                     </React.Fragment>
                 </div>
+        
             );
         }
     }
