@@ -1,28 +1,40 @@
 import React, { Component } from 'react';
 import imagenLogo from '../img/logo.png';
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 class Menu extends Component {
- 
-  render() {
-  return (
-                <div className="main-container">
-                    <React.Fragment>
-                        <div className="Menu">
-                            <div className="links1">
+
+    render() {
+        return (
+            <div className="main-container">
+                <React.Fragment>
+                    <Link to="/">
+                        <div className="home">Home</div>
+                    </Link>
+                    <div className="Menu">
+                        <div className="links1">
+                            <Link to="/adopt">
                                 <div className="OP">¿CÓMO ADOPTAR?</div>
+                            </Link>
+                            <Link to="/whyadopt">
                                 <div className="OP">¿PORQUÉ ADOPTAR?</div>
-                            </div>
-                                <img alt='' src={imagenLogo} />
-                                    <div className="links2">
-                                        <div className="OP">CUIDA TU MASCOTA</div>
-                                        <div className="OP">VETERINARIAS</div>
-                                    </div>
+                            </Link>
                         </div>
-                    </React.Fragment>
-                </div>
-            );
-        }
+                        <img alt='' src={imagenLogo} />
+                        <div className="links2">
+                            <Link to="/takecare">
+                                <div className="OP">CUIDA TU MASCOTA</div>
+                            </Link>
+                            <Link to="/veterinary">
+                                <div className="OP">VETERINARIAS</div>
+                            </Link>
+                        </div>
+                    </div>
+                </React.Fragment>
+            </div>
+        );
     }
+}
 
 export default Menu;
