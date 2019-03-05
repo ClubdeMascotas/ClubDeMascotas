@@ -9,9 +9,6 @@ class Menu extends Component {
         return (
             <div className="main-container">
                 <React.Fragment>
-                    <Link to="/">
-                        <div className="home">Home</div>
-                    </Link>
                     <div className="Menu">
                         <div className="links1">
                             <Link to="/adopt">
@@ -21,7 +18,9 @@ class Menu extends Component {
                                 <div className="OP">¿PORQUÉ ADOPTAR?</div>
                             </Link>
                         </div>
+                        <Link to="/">
                         <img alt='' src={imagenLogo} />
+                        </Link>
                         <div className="links2">
                             <Link to="/takecare">
                                 <div className="OP">CUIDA TU MASCOTA</div>

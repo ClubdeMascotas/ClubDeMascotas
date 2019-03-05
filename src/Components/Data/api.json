@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "comoAdoptar",
+    "information": "Tener una mascota en casa es una gran responsabilidad, no solo se trata de alimentarla, asearla, y sacarla a pasear, además es fundamental darle mucho amor.",
+    "information2": "Si estás considerando sumar un miembro a tu familia, ¿Qué tal adoptar? al hacerlo, no solo sentirás una inmensa satisfacción, sino que además ayudás al animal a tener una mejor vida.",
+    "steps": [
+      {
+        "textpreg": "¿Su estilo de vida es adecuado para proporcionar cuidado diario, amor y atención?",
+        "text": "Los costos iniciales y los gastos continuos, como las facturas de alimentos y veterinarias, también deben considerarse."
+      },
+      {
+        "textpreg": "Utilizá nuestra sección de búsqueda para ver las mascotas disponibles",
+        "text": "Todas las mascotas se encuentran en diversos lugares de adopción en toda C.A.B.A."
+      },
+      {
+        "textpreg": "¡Hacé una cita para conocerlx!",
+        "text": "Una vez que hayas encontrado la mascota que te gustaría recibir como familia, te invitamos a comunicarte con el refugio o la veterinaria."
+      },
+      {
+        "textpreg": "Una vez concretada tu cida",
+        "text": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "porQueAdoptar",
+    "information": "acá va la información de porqué adoptar",
+    "show": "hola2"
+  }
+]

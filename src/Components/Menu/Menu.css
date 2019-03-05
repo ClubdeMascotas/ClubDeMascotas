@@ -25,6 +25,10 @@ img {
     letter-spacing: .1rem;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .OP:hover {
     background-color: #FC8F2F;
