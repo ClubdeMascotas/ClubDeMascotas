@@ -15,16 +15,16 @@ class Adopt extends Component {
 
 
     render() {
-        let dataInformation = this.state.data[0].steps;
+        let dataInformation = this.state.data[0];
         console.log('lo que viene del JSON', dataInformation)
         return (
             <div>
                 <div className="main">
-                    <Information information={dataInformation.map((dataDetail, index)=>{
-                        return <p>{dataDetail[0]}</p>
+                    <Information information={dataInformation.steps.map((dataDetail, index)=>{
+                        return <div className="row" key={index}>{dataDetail.text}</div>
                     })} />
                     <Card 
-                    infodata={dataInformation[0]} />
+                    infodata={'hola'} />
                 </div>
             </div>
         );
