@@ -21,12 +21,55 @@
         "textpreg": "Una vez concretada tu cida",
         "text": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
       }
+    ],
+    "images":[
+      {
+        "imagePath": "img/icon1.png" 
+      },
+      {
+        "imagePath": "img/icon2.png" 
+      },
+      {
+        "imagePath": "'img/icon3.png'" 
+      },
+      {
+        "imagePath": "'img/icon4.png'" 
+      }
     ]
   },
   {
     "id": "2",
     "name": "porQueAdoptar",
     "information": "acá va la información de porqué adoptar",
-    "show": "hola2"
+    "information2": "acá va la información de porqué adoptar2222",
+    "steps": [
+      {
+        "textpreg": "¿Su estilo de vida es adecuado para proporcionar cuidado diario, amor y atención?",
+        "text": "Los costos iniciales y los gastos continuos, como las facturas de alimentos y veterinarias, también deben considerarse."
+      },
+      {
+        "textpreg": "Utilizá nuestra sección de búsqueda para ver las mascotas disponibles",
+        "text": "Todas las mascotas se encuentran en diversos lugares de adopción en toda C.A.B.A."
+      },
+      {
+        "textpreg": "¡Hacé una cita para conocerlx!",
+        "text": "Una vez que hayas encontrado la mascota que te gustaría recibir como familia, te invitamos a comunicarte con el refugio o la veterinaria."
+      },
+      {
+        "textpreg": "Una vez concretada tu cida",
+        "text": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
+      }
+    ],
+    "images":[
+      {
+        "imagePath": "img/mascota1.png" 
+      },
+      {
+        "imagePath": "img/mascota2.png" 
+      },
+      {
+        "imagePath": "img/mascota3.png" 
+      }
+    ]
   }
 ]

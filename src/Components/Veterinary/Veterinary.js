@@ -4,12 +4,7 @@ import Postdata from '../../Components/Data/api.json';
 
 
 class Veterinary extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            data: Postdata,
-        }
-    }
+
 
     render() {
         return (

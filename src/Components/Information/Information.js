@@ -14,11 +14,15 @@ class Information extends Component {
 
   render() {
     const { information } = this.props;
+    console.log('hooolis ', information)
     return (
       <div>
         <div className="main">
           <div className="text">
-          {information}
+            {information.information}
+          </div>
+          <div className="text-two">
+            {information.information2}
           </div>
         </div>
       </div>

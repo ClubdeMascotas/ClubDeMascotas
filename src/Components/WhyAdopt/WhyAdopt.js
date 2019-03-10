@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import './whyadopt.css';
-import Postdata from '../../Components/Data/api.json';
+import Card from '../Card/Card';
 
 class whyAdopt extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            data: Postdata,
-        }
-    }
-
     render() {
+        const { dataInformation } = this.props;
         return (
             <div>
                 <div className="main">
-                    {this.state.data[0].id}
+                    <Card
+                        information={dataInformation} />
                 </div>
             </div>
         );
