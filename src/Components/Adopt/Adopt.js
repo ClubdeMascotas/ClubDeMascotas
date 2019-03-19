@@ -26,9 +26,9 @@ class Adopt extends Component {
                     {/* <Information information={dataInformation.steps.map((dataDetail, index)=>{
                         return <div className="row" key={index}>{dataDetail.text}</div>
                     })} /> */}
-                    <Information information={dataInformation[0]} />
+                    <Information information={dataInformation} />
                     <Card 
-                    information={dataInformation[0]} />
+                    information={dataInformation} />
                     {/* <div className="images">
                     <img src={image1} alt="mascota"></img>
                     <img src={image2} alt="mascota"></img>

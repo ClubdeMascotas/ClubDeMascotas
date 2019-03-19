@@ -62,7 +62,7 @@
     ],
     "images":[
       {
-        "imagePath": "img/mascota1.png" 
+        "imagePath": "../img/mascota1.png" 
       },
       {
         "imagePath": "img/mascota2.png" 

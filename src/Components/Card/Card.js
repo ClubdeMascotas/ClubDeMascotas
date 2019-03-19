@@ -10,13 +10,14 @@ import Information from '../Information/Information';
 class Card extends Component {
     render() {
         let { information } = this.props;
+        let informationData = information[0];
         console.log('acaaaa ', information[0])
 
 
         return (
             <div>
                 <div className="main">
-                    <div className="image">
+                    {/* <div className="image">
                         <img src={icon1} alt="mascota">
                         </img>
                         <img src={icon2} alt="mascota">
@@ -24,24 +25,24 @@ class Card extends Component {
                         <img src={icon3} alt="mascota">
                         </img>
                         <img src={icon4} alt="mascota">
-                        </img></div>
+                        </img></div> */}
 
 
-                    {/* <div className="image">
-                        {information.images.map((image, index) => {
+                    <div className="image">
+                        {informationData.images.map((image, index) => {
                             return <img src={image.imagePath} className="imagePath" key={index}></img>
                         })}
                     </div>
                     <div className="text">
-                        {information.steps.map((dataDetail, index) => {
+                        {informationData.steps.map((dataDetail, index) => {
                             return <div className="row" key={index}>{dataDetail.textpreg}</div>
                         })}
                     </div>
                     <div className="text">
-                        {information.steps.map((dataDetail, index) => {
+                        {informationData.steps.map((dataDetail, index) => {
                             return <div className="row" key={index}>{dataDetail.text}</div>
                         })}
-                    </div> */}
+                    </div>
                 </div>
             </div>
         );
