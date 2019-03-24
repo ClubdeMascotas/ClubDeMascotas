@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import imagenSan from '../img/San.jpg'
 import Menu from '../Menu/Menu';
-import Information from '../Information/Information'
 import './home.css';
-
+import Footer from '../Footer/Footer';
 
 class Home extends Component {
   
@@ -13,9 +12,9 @@ class Home extends Component {
                 <div className="main-container">
                     <React.Fragment>
                             <Menu />
-                            
                                 <div className="Slider"> <img src={imagenSan}/> </div>
-                                <div className="Footer"></div>
+                                <div className="Footer"><Footer /></div>
+                                
                     </React.Fragment>
                 </div>
             );

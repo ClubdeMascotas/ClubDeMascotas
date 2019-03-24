@@ -6,69 +6,58 @@
     "information2": "Si estás considerando sumar un miembro a tu familia, ¿Qué tal adoptar? al hacerlo, no solo sentirás una inmensa satisfacción, sino que además ayudás al animal a tener una mejor vida.",
     "steps": [
       {
-        "textpreg": "¿Su estilo de vida es adecuado para proporcionar cuidado diario, amor y atención?",
-        "text": "Los costos iniciales y los gastos continuos, como las facturas de alimentos y veterinarias, también deben considerarse."
+        "text1": "¿Su estilo de vida es adecuado para proporcionar cuidado diario, amor y atención?",
+        "text2": "Los costos iniciales y los gastos continuos, como las facturas de alimentos y veterinarias, también deben considerarse."
       },
       {
-        "textpreg": "Utilizá nuestra sección de búsqueda para ver las mascotas disponibles",
-        "text": "Todas las mascotas se encuentran en diversos lugares de adopción en toda C.A.B.A."
+        "text1": "Utilizá nuestra sección de búsqueda para ver las mascotas disponibles",
+        "text2": "Todas las mascotas se encuentran en diversos lugares de adopción en toda C.A.B.A."
       },
       {
-        "textpreg": "¡Hacé una cita para conocerlx!",
-        "text": "Una vez que hayas encontrado la mascota que te gustaría recibir como familia, te invitamos a comunicarte con el refugio o la veterinaria."
+        "text1": "¡Hacé una cita para conocerlx!",
+        "text2": "Una vez que hayas encontrado la mascota que te gustaría recibir como familia, te invitamos a comunicarte con el refugio o la veterinaria."
       },
       {
-        "textpreg": "Una vez concretada tu cida",
-        "text": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
-      }
-    ],
-    "images":[
-      {
-        "imagePath": "img/icon1.png" 
-      },
-      {
-        "imagePath": "img/icon2.png" 
-      },
-      {
-        "imagePath": "'img/icon3.png'" 
-      },
-      {
-        "imagePath": "'img/icon4.png'" 
+        "text1": "Una vez concretada tu cida",
+        "text2": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
       }
     ]
   },
   {
     "id": "2",
     "name": "porQueAdoptar",
-    "information": "acá va la información de porqué adoptar",
-    "information2": "acá va la información de porqué adoptar2222",
+    "informationText1": "Es muy probable que si has adoptado una mascota tengas una buena historia de adopción que contar.",
+    "informationText2": "Podés enviarnos la tuya a nuestro mail.",
+    "informationText3":"Como bien sabrás son innumerables los beneficios de adoptar una mascota, entre ellos: mejoran tu salud y contribuyen a tu felicidad, te verás increíblemente beneficiadx, ayudas a erradicar granjas de cachorros (donde miles de perros y gatos son depositados), recibirás amor incondicional, y lo mejor de todo, estarás salvando una vida.",
     "steps": [
       {
-        "textpreg": "¿Su estilo de vida es adecuado para proporcionar cuidado diario, amor y atención?",
-        "text": "Los costos iniciales y los gastos continuos, como las facturas de alimentos y veterinarias, también deben considerarse."
+        "text1": "Jimmy",
+        "text2": "Cuando vi a Jimmy por primera vez, era el gatito más inquieto de todos. Su mamá era color marrón, al igual que sus hermanxs. Era el único color blanco, negro y gris. Creo que adoptar un compañero fue una de las mejores experiencias que viví. Ellxs tienen un amor inagotable."
       },
       {
-        "textpreg": "Utilizá nuestra sección de búsqueda para ver las mascotas disponibles",
-        "text": "Todas las mascotas se encuentran en diversos lugares de adopción en toda C.A.B.A."
+        "text1": "Pistacho",
+        "text2": "Pistacho es una gran compañía, lo encontré con mi marido cerca de casa y no dude por un segundo en darle comida y calor. Se convirtió en un integrante más de la familia."
       },
       {
-        "textpreg": "¡Hacé una cita para conocerlx!",
-        "text": "Una vez que hayas encontrado la mascota que te gustaría recibir como familia, te invitamos a comunicarte con el refugio o la veterinaria."
-      },
-      {
-        "textpreg": "Una vez concretada tu cida",
-        "text": "¡Visita el refugio/veterinaria para hablar con el personal, conocer a los animales y prepararte para presentar a tu nuevo amigo a su hogar para siempre!"
+        "text1": "Sandy",
+        "text2": "Sandy es como una hija para nosotros, siempre nos hace reir y estamos muy felices de tenerla."
       }
-    ],
-    "images":[
+    ]
+  },
+  {
+    "id": "3",
+    "name": "CuidaTuMascota",
+    "informationText1": "Accedé a la lista de cuidados básicos para tu mascota",
+    "informationText2": "",
+    "informationText3":"",
+    "steps": [
       {
-        "imagePath": "../img/mascota1.png" 
+        "text1": "El mejor cuidado para perrxs",
+        "text2": "Esto significa dedicr tiempo cada día a sus paseos. También significa preocuparse regularmente por brindarle una buena higiene y posiblemente descubrir los signos anormales que adviertan la presencia de una enfermedad."
       },
       {
-        "imagePath": "img/mascota2.png" 
-      },
-      {
-        "imagePath": "img/mascota3.png" 
+        "text1": "El mejor cuidado para gatxs",
+        "text2": "Aunque parecen animales muy independientes, los amantes de los gatos saben que los vínculos afectivos que se crean con los gatos a través de los cuidados y el juego son muy intensos y duran para siempre."
       }
     ]
   }
