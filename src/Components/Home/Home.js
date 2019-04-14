@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import imagenSan from '../img/San.jpg'
 import Menu from '../Menu/Menu';
-import './home.css';
+import './Home.css';
 import Footer from '../Footer/Footer';
 
 class Home extends Component {

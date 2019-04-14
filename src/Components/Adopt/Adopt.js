@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import './adopt.css';
+import './Adopt.css';
 import Postdata from '../../Components/Data/api.json';
 import Card from '../Card/Card';
 import Information from '../Information/Information';
-import Footer from '../Footer/Footer'
 import icon1 from '../img/icon1.png';
 import icon2 from '../img/icon2.png';
 import icon3 from '../img/icon3.png';
 import icon4 from '../img/icon4.png';
-import imagenLogo from '../img/logo.png';
-import { Link } from 'react-router-dom';
+import Menu from '../Menu/Menu';
 import Mascota1 from '../img/mascota1.png';
 import Mascota2 from '../img/mascota2.png';
 import Mascota3 from '../img/mascota3.png';
@@ -28,9 +26,7 @@ class Adopt extends Component {
         return (
             <div>
                 <div className="main">
-                    <Link to="/">
-                        <img className="image-logo" alt='' src={imagenLogo} />
-                    </Link>
+                   < Menu/>
                     <Information information={dataInformation} 
                     />
                     <Card

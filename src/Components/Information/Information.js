@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import './information.css';
+import './Information.css';
+import '../Menu/Menu.css';
+
+
+
 
 class Information extends Component {
   render() {

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import '../TakeCare/takecare.css';
+import '../TakeCare/TakeCare.css';
 import Postdata from '../../Components/Data/api.json';
 import Information from '../Information/Information';
-import { Link } from 'react-router-dom';
 import Card from '../Card/Card';
 import icon1 from '../img/foto4.png';
 import icon2 from '../img/foto6.png';
-import imagenLogo from '../img/logo.png';
+import Menu from '../Menu/Menu';
 
 class TakeCare extends Component {
     constructor(props) {
@@ -21,17 +20,15 @@ class TakeCare extends Component {
         return (
             <div>
                 <div className="main">
-                    <Link to="/">
-                        <img className="image-logo" alt='' src={imagenLogo} />
-                    </Link>
-                    <Information
-                        informationText={dataInformation.informationText1}
-                    />
-                    <Card
-                        image1={icon1}
-                        image2={icon2}
-                        text={dataInformation.steps}
-                    />
+                    < Menu/>
+                        <Information
+                            informationText={dataInformation.informationText1}
+                        />
+                        <Card
+                            image1={icon1}
+                            image2={icon2}
+                            text={dataInformation.steps}
+                        />
                 </div>
             </div>
         );
