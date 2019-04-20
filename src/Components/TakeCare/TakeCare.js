@@ -3,8 +3,8 @@ import '../TakeCare/TakeCare.css';
 import Postdata from '../../Components/Data/api.json';
 import Information from '../Information/Information';
 import Card from '../Card/Card';
-import icon1 from '../img/foto4.png';
-import icon2 from '../img/foto6.png';
+import icon1 from '../img/img1.png';
+import icon2 from '../img/img2.png';
 import Menu from '../Menu/Menu';
 
 class TakeCare extends Component {

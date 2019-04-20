@@ -48,17 +48,8 @@
     "id": "3",
     "name": "CuidaTuMascota",
     "informationText1": "Accedé a la lista de cuidados básicos para tu mascota",
-    "informationText2": "",
-    "informationText3":"",
     "steps": [
-      {
-        "text1": "El mejor cuidado para perrxs",
-        "text2": "Esto significa dedicr tiempo cada día a sus paseos. También significa preocuparse regularmente por brindarle una buena higiene y posiblemente descubrir los signos anormales que adviertan la presencia de una enfermedad."
-      },
-      {
-        "text1": "El mejor cuidado para gatxs",
-        "text2": "Aunque parecen animales muy independientes, los amantes de los gatos saben que los vínculos afectivos que se crean con los gatos a través de los cuidados y el juego son muy intensos y duran para siempre."
-      }
+      
     ]
   }
 ]

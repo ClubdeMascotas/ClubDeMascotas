@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 import icon1 from '../img/foto1.png';
 import icon2 from '../img/foto2.png';
 import icon3 from '../img/foto3.png';
+import icon4 from '../img/foto4.png';
 import Postdata from '../../Components/Data/api.json';
 import Information from '../Information/Information';
 import Menu from '../Menu/Menu';
@@ -30,6 +31,7 @@ class whyAdopt extends Component {
                             image1={icon1}
                             image2={icon2}
                             image3={icon3}
+                            image4={icon4}
                             text={dataInformation.steps}
                             />
                             <Information
