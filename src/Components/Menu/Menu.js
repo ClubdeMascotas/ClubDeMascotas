@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import imagenLogo from '../img/logo.png';
-import './menu.css';
+import './Menu.css';
 import { Link } from 'react-router-dom';
 
 class Menu extends Component {

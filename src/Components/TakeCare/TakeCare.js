@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../TakeCare/takecare.css';
+import '../TakeCare/TakeCare.css';
 import Postdata from '../../Components/Data/api.json';
 import Information from '../Information/Information';
 import Card from '../Card/Card';

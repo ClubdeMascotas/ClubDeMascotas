@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../Menu/menu.css';
+import '../Menu/Menu.css';
 
 
 
