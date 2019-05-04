@@ -22,6 +22,7 @@ class TakeCare extends Component {
                 <div className="main">
                     < Menu/>
                         <Information
+                        className="text1"
                             informationText={dataInformation.informationText1}
                         />
                         <Card
