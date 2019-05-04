@@ -25,7 +25,7 @@ class Adopt extends Component {
         let dataInformation = this.state.data[0].steps;
         return (
             <div>
-                <div className="main">
+                <div className="main-adopt">
                     < Menu />
                     <Information information={dataInformation}
                     />
@@ -34,7 +34,6 @@ class Adopt extends Component {
                         image2={icon2}
                         image3={icon3}
                         image4={icon4}
-                    // text={dataInformation}
                     />
                     <div className="images">
                         <img className="image" alt='' src={Mascota1} />

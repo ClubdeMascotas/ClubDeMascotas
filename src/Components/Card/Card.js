@@ -6,10 +6,10 @@ import Home from '../Home/Home';
 
 class Card extends Component {
     render() {
-        let { image1, image2, image3, image4, text } = this.props;
+        let { image1, image2, image3, image4 } = this.props;
         return (
             <div>
-                <div className="main">
+                <div className="main-card">
                     <div className="image">
                         <img className="image-small" src={image1} alt="mascota">
                         </img>

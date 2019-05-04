@@ -10,7 +10,7 @@ class Information extends Component {
     const { informationText, informationText2, informationText3 } = this.props;
     return (
       <div>
-        <div className="main">
+        <div className="main-information">
           <div className="text">
             {informationText}  
           </div>

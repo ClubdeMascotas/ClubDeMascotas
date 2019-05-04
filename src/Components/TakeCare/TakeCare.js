@@ -19,17 +19,17 @@ class TakeCare extends Component {
         let dataInformation = this.state.data[2];
         return (
             <div>
-                <div className="main">
-                    < Menu/>
-                        <Information
-                        className="text1"
-                            informationText={dataInformation.informationText1}
-                        />
-                        <Card
-                            image1={icon1}
-                            image2={icon2}
-                            text={dataInformation.steps}
-                        />
+                <div className="main-take-care">
+                    < Menu />
+                    <Information
+                        informationText={dataInformation.informationText1}
+                    />
+                    <div className="image-container">
+                        <img className="image" src={icon1} alt="mascota">
+                        </img>
+                        <img className="image" src={icon2} alt="mascota">
+                        </img>
+                    </div>
                 </div>
             </div>
         );
