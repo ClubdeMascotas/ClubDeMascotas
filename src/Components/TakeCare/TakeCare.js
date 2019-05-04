@@ -21,9 +21,7 @@ class TakeCare extends Component {
             <div>
                 <div className="main-take-care">
                     < Menu />
-                    <Information
-                        informationText={dataInformation.informationText1}
-                    />
+                    {"Accedé a la lista de cuidados básicos para tu mascota"}
                     <div className="image-container">
                         <img className="image" src={icon1} alt="mascota">
                         </img>
