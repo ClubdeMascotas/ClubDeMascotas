@@ -1,5 +1,9 @@
-.main {
+.main-why-adopt {
     background-color: orange;
     align-items: center;
     width: auto;
+}
+
+.main-information {
+    background-color: red;
 }
