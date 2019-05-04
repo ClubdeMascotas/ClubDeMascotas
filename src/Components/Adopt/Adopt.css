@@ -5,3 +5,20 @@
 
 }
 
+.text1 {
+    display: flex;
+    margin: 10px;
+
+}
+
+.text2 {
+    display: flex;
+    margin: 10px;
+}
+
+.text-container {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+

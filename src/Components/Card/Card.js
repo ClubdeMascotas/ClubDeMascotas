@@ -11,25 +11,14 @@ class Card extends Component {
             <div>
                 <div className="main">
                     <div className="image">
-                        <img src={image1} alt="mascota">
+                        <img className="image-small" src={image1} alt="mascota">
                         </img>
-                        <img src={image2} alt="mascota">
+                        <img className="image-small" src={image2} alt="mascota">
                         </img>
-                        <img src={image3} alt="mascota">
+                        <img className="image-small" src={image3} alt="mascota">
                         </img>
-                        <img src={image4} alt="mascota">
+                        <img className="image-small" src={image4} alt="mascota">
                         </img>
-                    </div>
-
-                    <div className="text">
-                        {text.map((dataDetail, index) => {
-                            return <div className="row" key={index}>{dataDetail.text1}</div>
-                        })}
-                    </div>
-                    <div className="text">
-                        {text.map((dataDetail, index) => {
-                            return <div className="row" key={index}>{dataDetail.text2}</div>
-                        })}
                     </div>
                 </div>
             </div>

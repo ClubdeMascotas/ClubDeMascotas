@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Veterinary.css';
+import './veterinary.css';
 import Postdata from '../../Components/Data/api.json';
 
 

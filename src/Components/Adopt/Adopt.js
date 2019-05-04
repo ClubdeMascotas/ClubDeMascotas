@@ -26,20 +26,32 @@ class Adopt extends Component {
         return (
             <div>
                 <div className="main">
-                   < Menu/>
-                    <Information information={dataInformation} 
+                    < Menu />
+                    <Information information={dataInformation}
                     />
                     <Card
                         image1={icon1}
                         image2={icon2}
                         image3={icon3}
                         image4={icon4}
-                        text={dataInformation}
+                    // text={dataInformation}
                     />
                     <div className="images">
                         <img className="image" alt='' src={Mascota1} />
                         <img className="image" alt='' src={Mascota2} />
                         <img className="image" alt='' src={Mascota3} />
+                    </div>
+                    <div className="text-container">
+                        <div className="text1">
+                            {dataInformation.map((dataDetail, index) => {
+                                return <div className="row" key={index}>{dataDetail.text1}</div>
+                            })}
+                        </div>
+                        <div className="text2">
+                            {dataInformation.map((dataDetail, index) => {
+                                return <div className="row" key={index}>{dataDetail.text2}</div>
+                            })}
+                        </div>
                     </div>
                     {/* <Footer /> */}
                 </div>
