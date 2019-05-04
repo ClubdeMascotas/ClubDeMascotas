@@ -24,7 +24,7 @@ class whyAdopt extends Component {
         let dataInformation = this.state.data[1];
         return (
             <div>
-                <div className="main">
+                <div className="main-why-adopt">
                     <Menu />
                     </div>
                         <Card
