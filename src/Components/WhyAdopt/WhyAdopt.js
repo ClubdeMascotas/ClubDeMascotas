@@ -8,7 +8,7 @@ import icon4 from '../img/foto4.png';
 import Postdata from '../../Components/Data/api.json';
 import Information from '../Information/Information';
 import Menu from '../Menu/Menu';
-import '../Menu/Menu.css';
+import '../Menu/menu.css';
 
 
 
