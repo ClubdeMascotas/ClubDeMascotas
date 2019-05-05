@@ -1,0 +1,28 @@
+.main-footer{
+    background-color: #FC8F2F;
+    padding-top: 5px;
+    width: auto;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: medium;
+    height: 50px;
+}
+
+.ig {
+    width: 30px;
+}
+
+.mail{
+    width: 30px;
+}

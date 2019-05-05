@@ -13,11 +13,3 @@ body {
     height: auto;
     position: relative;
 }
-
-.Footer{
-background-color: #FC8F2F;
-height: 180px;
-align-items: center;
-justify-content: center;
-color: white;
-}

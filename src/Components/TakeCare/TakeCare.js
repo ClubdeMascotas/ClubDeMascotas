@@ -6,6 +6,7 @@ import Card from '../Card/Card';
 import icon1 from '../img/img1.png';
 import icon2 from '../img/img2.png';
 import Menu from '../Menu/Menu';
+import Footer from '../Footer/Footer';
 
 class TakeCare extends Component {
     constructor(props) {
@@ -19,8 +20,8 @@ class TakeCare extends Component {
         let dataInformation = this.state.data[2];
         return (
             <div>
+                < Menu />
                 <div className="main-take-care">
-                    < Menu />
                     {"Accedé a la lista de cuidados básicos para tu mascota"}
                     <div className="image-container">
                         <img className="image" src={icon1} alt="mascota">
@@ -29,6 +30,7 @@ class TakeCare extends Component {
                         </img>
                     </div>
                 </div>
+                <div className="Footer"><Footer /></div>
             </div>
         );
     }

@@ -1,9 +1,6 @@
 .image {
-    background-color: rgb(255, 255, 255);
     border: 1px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
+    width: 500px;
+    justify-content: center;
 }

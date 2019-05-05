@@ -19,7 +19,7 @@ class Menu extends Component {
                             </Link>
                         </div>
                         <Link to="/">
-                        <img alt='' src={imagenLogo} />
+                        <img className="logo" alt='' src={imagenLogo} />
                         </Link>
                         <div className="links2">
                             <Link to="/takecare">

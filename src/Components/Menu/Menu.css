@@ -12,7 +12,7 @@
     align-items: center;
     letter-spacing: .1rem;
 }
-img {
+.logo {
     width: 220px;
     height: auto;
 }

@@ -1,7 +1,14 @@
-.text1 {
-    color: black;
+.main-take-care {
+    background-color: #47A1BC;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+
+    
 }
 
-.main {
-    background-color: red;
+.image-container {
+    align-items: center;
+    justify-content: center;
 }
